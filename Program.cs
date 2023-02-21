@@ -1,17 +1,11 @@
-﻿namespace Homework3._2;
+﻿namespace Homework5;
 class Program
 {
     static void Main(string[] args)
     {
-        for (int row = 0; row < 5; row++)
-        {
-            for (int col = 0; col < 5; col++)
-            {
-                if (row >= col)
-
-                    Console.Write('*');
-            }
-            Console.WriteLine("");
+        int a = 3, b = 5;
+        if(a < b){
+            Console.WriteLine("5");
         }
     }
 }
