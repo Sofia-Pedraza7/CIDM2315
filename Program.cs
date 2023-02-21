@@ -1,11 +1,19 @@
-﻿namespace Homework5;
+﻿namespace Homework5._2;
 class Program
 {
     static void Main(string[] args)
     {
-        int a = 3, b = 5;
-        if(a < b){
-            Console.WriteLine("5");
+        int a = 3, b = 5, c = 7, d = 9;
+        if(3 < 5){
+                Console.WriteLine("The largest number: 5");
+            }
+        if(7 < 9){
+            Console.WriteLine("The largest number: 9");
         }
+        if(5 < 9){
+            Console.WriteLine("The largest number: 9");
+        }
+
+        
     }
 }
